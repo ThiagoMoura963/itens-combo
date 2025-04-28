@@ -1,8 +1,8 @@
 package model;
 
 public class Sobremesa implements ItemCombo {
-    private String nome;
-    private double preco;
+    private final String nome;
+    private final double preco;
 
     public Sobremesa(String nome, double preco) {
         this.nome = nome;

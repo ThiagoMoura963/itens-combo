@@ -1,8 +1,8 @@
 package model;
 
 public class Burguer implements ItemCombo {
-    private String nome;
-    private double preco;
+    private final String nome;
+    private final double preco;
 
     public Burguer(String nome, double preco) {
         this.nome = nome;
